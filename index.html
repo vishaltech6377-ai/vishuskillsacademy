@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vishu Skills Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+font-family:Arial;
+margin:0;
+background:url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") no-repeat center center fixed;
+background-size:cover;
+}
+
+.overlay{
+background:rgba(255,255,255,0.92);
+min-height:100vh;
+}
+
+header{
+background:url("https://images.unsplash.com/photo-1509062522246-3755977927d7") no-repeat center center;
+background-size:cover;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:36px;
+margin:0;
+}
+
+nav{
+background:#1565c0;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+text-align:center;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px auto;
+max-width:320px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.btn{
+background:#43a047;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+}
+
+.btn:hover{
+background:#2e7d32;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+<h1>📚 Vishu Skills Academy</h1>
+<p>Professional Notes & Online Courses</p>
+</header>
+
+<nav>
+<a href="#notes">Notes</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- NOTES SECTION -->
+<section id="notes">
+<h2>📘 Study Notes</h2>
+
+<div class="card">
+<h3>GST Notes (Free)</h3>
+<a class="btn" href="https://drive.google.com/file/d/XXXX/view" target="_blank">
+Download
+</a>
+</div>
+
+<div class="card">
+<h3>SAP FICO Notes (Free)</h3>
+<a class="btn" href="https://drive.google.com/file/d/YYYY/view" target="_blank">
+Download
+</a>
+</div>
+
+<div class="card">
+<h3>🧾 Tally Notes (Paid)</h3>
+<p><b>Price: ₹9</b></p>
+<a class="btn" href="https://rzp.io/i/ZZZZ" target="_blank">
+Pay & Download
+</a>
+</div>
+
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+<h2>🎓 Buy Courses</h2>
+
+<div class="card">
+<h3>SAP FICO Full Course</h3>
+<p><b>Price: ₹499</b></p>
+<a class="btn" href="https://rzp.io/i/AAAA" target="_blank">
+Buy Now
+</a>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>📞 Contact</h2>
+<p>📱 6377105355</p>
+<p>📧 yourmail@gmail.com</p>
+<p>▶️ YouTube: Vishu Skills Academy</p>
+<a class="btn" href="https://wa.me/916377105355">WhatsApp</a>
+</section>
+
+<footer>
+© 2026 Vishu Skills Academy
+</footer>
+
+</div>
+
+</body>
+</html>
