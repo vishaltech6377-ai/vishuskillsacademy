@@ -18,20 +18,21 @@ background:rgba(255,255,255,0.95);
 min-height:100vh;
 }
 
-/* HEADER IMAGE */
-
 header{
-background:url("https://images.unsplash.com/photo-1497493292307-31c376b6e479")
-no-repeat center center;
+background:url("https://images.unsplash.com/photo-1497493292307-31c376b6e479") no-repeat center center;
 background-size:cover;
 color:white;
-padding:90px;
+padding:80px 20px;
 text-align:center;
 }
 
 header h1{
 font-size:40px;
 margin:0;
+}
+
+header p{
+font-size:18px;
 }
 
 nav{
@@ -59,7 +60,7 @@ padding:20px;
 margin:20px auto;
 max-width:320px;
 border-radius:10px;
-box-shadow:0 0 15px gray;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
 
 .card img{
@@ -67,18 +68,29 @@ width:100%;
 border-radius:10px;
 }
 
+.card h3{
+margin:10px 0;
+}
+
 .btn{
 background:green;
 color:white;
-padding:10px 18px;
+padding:12px 20px;
 text-decoration:none;
 border-radius:5px;
 display:inline-block;
 margin-top:10px;
+font-weight:bold;
 }
 
 .btn:hover{
 background:#0a8f2f;
+}
+
+.info{
+font-size:14px;
+color:gray;
+margin-top:8px;
 }
 
 footer{
@@ -89,11 +101,12 @@ text-align:center;
 }
 
 .social a{
-font-size:20px;
+font-size:18px;
 margin:10px;
 text-decoration:none;
 font-weight:bold;
 color:red;
+display:inline-block;
 }
 
 </style>
@@ -106,8 +119,8 @@ color:red;
 <header>
 <h1>Vishu Skills Academy</h1>
 <p>Tally | SAP FICO | Excel Courses & Notes</p>
+<p>Learn Practical Accounting Skills</p>
 </header>
-
 
 <nav>
 <a href="#notes">Notes</a>
@@ -115,53 +128,36 @@ color:red;
 <a href="#contact">Contact</a>
 </nav>
 
-
-
 <!-- NOTES -->
 
 <section id="notes">
 
 <h2>Notes</h2>
 
-
 <div class="card">
-
 <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
-
 <h3>Tally Notes ₹9</h3>
+<p>All Voucher Entries + GST + Practical Notes</p>
 
-<a class="btn"
-href="https://rzp.io/rzp/7EGwbQHw"
-target="_blank">
-
+<a class="btn" href="https://rzp.io/rzp/J3fz6I7" target="_blank">
 Pay & Download
-
 </a>
 
+<p class="info">Payment ke turant baad notes mil jayenge</p>
 </div>
 
-
-
 <div class="card">
-
 <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f">
-
 <h3>SAP FICO Notes ₹1</h3>
 
-<a class="btn"
-href="https://rzp.io/rzp/7EGwbQHw"
-target="_blank">
-
+<a class="btn" href="https://rzp.io/rzp/7EGwbQHw" target="_blank">
 Pay & Download
-
 </a>
 
+<p class="info">Instant access after payment</p>
 </div>
 
 </section>
-
-
-
 
 <!-- COURSES -->
 
@@ -169,60 +165,39 @@ Pay & Download
 
 <h2>Courses</h2>
 
-
 <div class="card">
-
 <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818">
+<h3>Tally Course ₹299</h3>
+<p>Complete Practical Course with Real Business Examples</p>
 
-<h3>Tally Course ₹499</h3>
-
-<a class="btn"
-href="https://rzp.io/rzp/7EGwbQHw">
-
+<a class="btn" href="https://rzp.io/rzp/DD7sE4az" target="_blank">
 Buy Course
-
 </a>
 
+<p class="info">Lifetime access + Notes included</p>
 </div>
 
-
-
 <div class="card">
-
 <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
-
 <h3>SAP FICO Course ₹999</h3>
 
-<a class="btn"
-href="https://rzp.io/rzp/7EGwbQHw">
-
+<a class="btn" href="https://rzp.io/rzp/7EGwbQHw" target="_blank">
 Buy Course
-
 </a>
 
 </div>
 
-
-
 <div class="card">
-
 <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
-
 <h3>Excel Course ₹199</h3>
 
-<a class="btn"
-href="https://rzp.io/rzp/7EGwbQHw">
-
+<a class="btn" href="https://rzp.io/rzp/7EGwbQHw" target="_blank">
 Buy Course
-
 </a>
 
 </div>
 
 </section>
-
-
-
 
 <!-- CONTACT -->
 
@@ -230,38 +205,26 @@ Buy Course
 
 <h2>Contact</h2>
 
-<p>Name : Vishal Kumar</p>
-
-<p>Phone : 6377105355</p>
-
-<p>Email : vishaltech6377@gmail.com</p>
-
+<p><b>Name:</b> Vishal Kumar</p>
+<p><b>Phone:</b> 6377105355</p>
+<p><b>Email:</b> vishaltech6377@gmail.com</p>
 
 <div class="social">
 
 <a href="https://youtube.com/@vishuskillsacademy?si=uz4sG7_Q2jJh3_SS">
-
-▶ YouTube
-
+YouTube
 </a>
 
-
 <a href="https://www.instagram.com/vishuskillsacadrmy?igsh=NWkzenl6NXplbDJ0">
-
-📸 Instagram
-
+Instagram
 </a>
 
 </div>
 
 </section>
 
-
-
 <footer>
-
-© 2026 Vishu Skills Academy
-
+© 2026 Vishu Skills Academy | All Rights Reserved
 </footer>
 
 </div>
